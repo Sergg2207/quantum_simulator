@@ -16,7 +16,7 @@ Simulador para sistemas cuanticos discretos (basado en el libro Quantum Computin
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Sergg2207/quantum-simulator
+git clone https://github.com/Sergg2207/quantum_simulator
 cd quantum-simulator
 
 # Instalar dependencias
