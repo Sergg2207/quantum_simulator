@@ -2,7 +2,9 @@
 # Quantum Simulator – Observables y Medidas
 
 **Autor:** Sergio Luis González Alba
+
 **Materia:** Ciencias Naturales y Tecnologia
+
 **Entrega:** Observables y Medidas
 
 ---
