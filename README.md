@@ -20,22 +20,22 @@ El trabajo se desarrolló en **Python** usando **NumPy** y **Jupyter Notebooks**
 ```
 quantum_simulator/
 │
-├── notebooks/
-│ ├── 1_basic_quantum_system.ipynb # Simulación del primer sistema cuántico (sección 4.1)
-│ ├── 2_observables_measurements.ipynb # Retos: observables, medidas, media, varianza, autovalores
-│ ├── 3_dynamics.ipynb # Dinámica: aplicación de matrices unitarias (Un)
-│ ├── 4_problems.ipynb # Ejemplos modelados: 4.3.1, 4.3.2, 4.4.1, 4.4.2
-│ └── 5_discussion.ipynb # Discusión de los ejercicios 4.5.2 y 4.5.3
+├── quantum_simulator_principal/
+│   ├── __init__.py                        ← Archivo para inicializar el paquete
+│   ├── core.py                            ← Módulo con clase QuantumSystem (kets, probabilidades)
+│   ├── observables.py                     ← Módulo con clase Observable (hermiticidad, media, varianza)
+│   └── dynamics.py                        ← Módulo con clase QuantumDynamics (operadores unitarios)
 │
-├── quantum_simulator/ # Paquete Python con la librería
-│ ├── init.py
-│ ├── core.py # QuantumSystem: probabilidades, transiciones, etc.
-│ ├── observables.py # Observable: hermiticidad, media, varianza, autovalores
-│ └── dynamics.py # QuantumDynamics: aplicar secuencia de Unitaries
+├── notebooks/                             ← Notebooks de desarrollo y entrega
+│   ├── 1_basic_quantum_system.ipynb       ← Sistema cuántico básico (sección 4.1)
+│   ├── 2_observables_measurements.ipynb   ← Observables, medidas, media y varianza
+│   ├── 3_dynamics.ipynb                   ← Dinámica del sistema (operadores unitarios)
+│   ├── 4_problems.ipynb                   ← Ejercicios y retos (capítulo 4)
+│   └── 5_discussion.ipynb                 ← Discusión de resultados y conclusiones
 │
-├── requirements.txt # Dependencias (numpy, jupyter, nbformat)
-├── pyproject.toml # Configuración para instalación editable
-└── README.md # Este archivo
+├── requirements.txt                       ← Dependencias del proyecto (numpy, nbformat, etc.)
+├── README.md                              ← Documentación general (ya la tienes)
+└── .gitattributes                         ← Configuración de Git (opcional, ya presente)
 ```
 
 ---
