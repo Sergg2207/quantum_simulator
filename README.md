@@ -3,9 +3,8 @@
 
 **Autor:** Sergio Luis González Alba
 
-**Materia:** Ciencias Naturales y Tecnologia
+**Materia:** CNYT - Ciencias Naturales y Tecnologia
 
-**Entrega:** Observables y Medidas
 
 ---
 
