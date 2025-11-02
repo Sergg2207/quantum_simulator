@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/23291906/README.md)
+
 # Quantum Simulator – Observables y Medidas
 
 **Autor:** Sergio Luis González Alba
