@@ -21,20 +21,21 @@ El trabajo se desarrolló en **Python** usando **NumPy** y **Jupyter Notebooks**
 quantum_simulator/
 │
 ├── notebooks/
-│   ├── 1_system.ipynb                     # Simulación del primer sistema cuántico (sección 4.1)
-│   ├── 2_observables_measurements.ipynb   # Observables, medidas, media, varianza y dinámica
-│   ├── 3_dynamics.ipynb                   # Observables, medidas, media, varianza y dinámica
-│   ├── 4_problems.ipynb                   # Observables, medidas, media, varianza y dinámica
-│   ├── 5_discussion.ipynb                 # Observables, medidas, media, varianza y dinámica
-│   └── examples.ipynb                     # Ejercicios y ejemplos 4.3.1, 4.3.2, 4.4.1, 4.4.2
+│ ├── 1_basic_quantum_system.ipynb # Simulación del primer sistema cuántico (sección 4.1)
+│ ├── 2_observables_measurements.ipynb # Retos: observables, medidas, media, varianza, autovalores
+│ ├── 3_dynamics.ipynb # Dinámica: aplicación de matrices unitarias (Un)
+│ ├── 4_problems.ipynb # Ejemplos modelados: 4.3.1, 4.3.2, 4.4.1, 4.4.2
+│ └── 5_discussion.ipynb # Discusión de los ejercicios 4.5.2 y 4.5.3
 │
-├── quantum_utils.py                       # Funciones auxiliares del simulador
-├── requirements.txt                       # Dependencias del proyecto
-├── __init__.py                            # Documentación del proyecto
-├── core.py                                # Documentación del proyecto
-├── dynamics.py                            # Documentación del proyecto
-├── observables.py                         # Documentación del proyecto
-└── README.md                              # Documentación del proyecto
+├── quantum_simulator/ # Paquete Python con la librería
+│ ├── init.py
+│ ├── core.py # QuantumSystem: probabilidades, transiciones, etc.
+│ ├── observables.py # Observable: hermiticidad, media, varianza, autovalores
+│ └── dynamics.py # QuantumDynamics: aplicar secuencia de Unitaries
+│
+├── requirements.txt # Dependencias (numpy, jupyter, nbformat)
+├── pyproject.toml # Configuración para instalación editable
+└── README.md # Este archivo
 ```
 
 ---
